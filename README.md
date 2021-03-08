@@ -1,5 +1,6 @@
 ![](https://img.shields.io/badge/UNIX-FILE%20SYSTEM-orange)  
 ![](https://img.shields.io/badge/Language-%20C-blue)  
+---
 # Mini-Unix-File-System 
 A small but fully functional Unix file system 
 
@@ -116,10 +117,9 @@ __More specifically:__
 - Executing cfs_create creates a file system with .bin and root folders.
 - Each element consists of one or more blocks, where in the first block we save a struct metadata which contains useful information for each element(directory,file,link).
 - Directories consist of one or more blocks,  where in the first block there is initially a struct metadata stored and then followed by other structs that are "markers" in its contents.
-- The size of directories is dynamic, specifically whenever
-one block ends in size, another and its characteristic are bound
-number is stored in the metadata table. That way no
-we commit block from the beginning but dynamically and depending on the demand.
-- The size of the files is the size of the array in the metadata on it
-the size of a block. 
+- The size of directories is dynamic, specifically whenever one block ends in size, another and its characteristic are bound number is stored in the metadata table. That way no we commit block from the beginning but dynamically and depending on the demand.
+- The size of the files is the size of the array in the metadata on it the size of a block. 
 - Only hard links included.
+
+---
+© Myrto Igglezou && Konstantinos Nikoletos
