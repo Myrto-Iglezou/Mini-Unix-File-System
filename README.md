@@ -122,4 +122,4 @@ __More specifically:__
 - Only hard links included.
 
 ---
-© Myrto Igglezou && Konstantinos Nikoletos
+© Myrto Iglezou && Konstantinos Nikoletos
